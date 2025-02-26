@@ -56,30 +56,30 @@ Gerar e visualizar relatórios de teste
 
 npx playwright show-report
 
-📂 Estrutura do Projeto
+📂 Estrutura do Projeto ***
 
-📂 meu-projeto-playwright
- ├── 📂 elementos
- │   ├── LoginElementos.js
- │   ├── CompraElementos.js
- │
- ├── 📂 pages
- │   ├── LoginPage.js
- │   ├── CompraPage.js
- │
- ├── 📂 tests
- │   ├── testesLogin.spec.js  # Testes de login utilizando o codegen
- │   ├── testeCompra.spec.js # Testes de compra utilizando o codegen
- |   ├── testesLoginXpath.spec.js  # Testes de login utilizando o design patterns e boas práticas
- │   ├── testeCompraXpath.spec.js # Testes de compra utilizando o design patterns e boas práticas
- │
- ├── 📂 meus-reports
- │   ├── report_26_02_2025--10-49-44
- │   │   ├── index.html
- │
- ├── 📜 playwright.config.js
- ├── 📜 package.json
- ├── 📜 README.md
+📂 meu-projeto-playwright<br>
+ |--- 📂 elementos<br>
+ |....|--- LoginElementos.js<br>
+ |....|--- CompraElementos.js<br>
+ |<br>
+ |--- 📂 pages<br>
+ │....|--- LoginPage.js<br>
+ │....|--- CompraPage.js<br>
+ |<br>
+ |--- 📂 tests<br>
+ |....|--- testesLogin.spec.js  # Testes de login utilizando o codegen<br>
+ |....|--- testeCompra.spec.js # Testes de compra utilizando o codegen<br>
+ |....|--- testesLoginXpath.spec.js  # Testes de login utilizando o design patterns e boas práticas<br>
+ |....|--- testeCompraXpath.spec.js # Testes de compra utilizando o design patterns e boas práticas<br>
+ |<br>
+ |--- 📂 meus-reports<br>
+ |....|--- report_26_02_2025--10-49-44<br>
+ |....|....|--- index.html<br>
+ |<br>
+ |--- 📜 playwright.config.js<br>
+ |--- 📜 package.json<br>
+ |--- 📜 README.md<br>
 
 🛠 Configuração Personalizada
 
