@@ -1,4 +1,4 @@
-🚀 Testes Automatizados com Playwright
+🚀 **Testes Automatizados com Playwright**
 
 Este projeto utiliza Playwright para automação de testes no site Sauce Labs. Os testes incluem:
 
@@ -8,7 +8,7 @@ Login inválido
 
 Fluxo de compra E2E (End-to-End)
 
-📌 Requisitos
+📌 **Requisitos**
 
 Antes de começar, certifique-se de ter instalado:
 
@@ -21,14 +21,14 @@ Verifique as versões instaladas com os comandos:
 node -v
 npm -v
 
-📥 Instalação
+📥 **Instalação**
 
-Clone este repositório:
+**Clone este repositório:**
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/vinivioti/PlaywrightFrameVioti.git<br>
 cd seu-repositorio
 
-Inicialize o projeto Playwright:
+**Inicialize o projeto Playwright:**
 
 npm init playwright@latest
 
@@ -38,27 +38,27 @@ Instale as dependências:
 
 npm install
 
-🚀 Como Executar os Testes
+🚀 **Como Executar os Testes**
 
-Executar todos os testes
+**Executar todos os testes
 
 npx playwright test
 
-Executar um teste específico
+**Executar um teste específico
 
 npx playwright test nome-do-arquivo.spec.ts
 
-Executar os testes com UI do Playwright
+**Executar os testes com UI do Playwright
 
 npx playwright test --ui
 
-Gerar e visualizar relatórios de teste
+**Gerar e visualizar relatórios de teste
 
 npx playwright show-report
 
-📂 Estrutura do Projeto ***
+📂 **Estrutura do Projeto** **
 
-📂 meu-projeto-playwright<br>
+📂 meu-projeto-playwright - PlaywrightFrameVioti<br>
  |--- 📂 elementos<br>
  |....|--- LoginElementos.js<br>
  |....|--- CompraElementos.js<br>
@@ -81,15 +81,15 @@ npx playwright show-report
  |--- 📜 package.json<br>
  |--- 📜 README.md<br>
 
-🛠 Configuração Personalizada
+🛠 **Configuração Personalizada**
 
 Se precisar modificar as configurações, edite o arquivo playwright.config.ts. Nele, você pode definir navegadores, diretórios de relatórios e muito mais.
 
-📌 Considerações Finais
+📌 **Considerações Finais**
 
 Este projeto é um exemplo de automação de testes para sites utilizando Playwright. Sinta-se à vontade para modificar e expandir conforme necessário! 🎯
 
-🔗 Mais informações:
+🔗 **Mais informações:**
 
 Documentação oficial do Playwright
 
